@@ -5,9 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "dseg7-classic";
+  src: local("desg7-classic"),
+  url("./fonts/dseg7-classic/DSEG7Classic-Bold.ttf") format("truetype");
+  font-weight: bold;
 }
